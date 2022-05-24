@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  ToDoOne
-//
-//  Created by Admin on 24/05/2022.
-//
-
 import SwiftUI
 import CoreData
 
