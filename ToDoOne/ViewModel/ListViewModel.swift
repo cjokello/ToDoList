@@ -22,6 +22,7 @@ class ListViewModel: ObservableObject {
         else { return }
         
         self.items = savedItems
+        
     }
     
     // delete

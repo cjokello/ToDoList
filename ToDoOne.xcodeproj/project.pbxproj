@@ -21,6 +21,7 @@
 		84FA79ED283D560700AB6B7B /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA79EC283D560700AB6B7B /* AddItemView.swift */; };
 		84FA79EF283D586E00AB6B7B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA79EE283D586E00AB6B7B /* Item.swift */; };
 		84FA79F1283D5C6900AB6B7B /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA79F0283D5C6900AB6B7B /* ListViewModel.swift */; };
+		84FA79F3283D70E000AB6B7B /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA79F2283D70E000AB6B7B /* NoItemsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		84FA79EC283D560700AB6B7B /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		84FA79EE283D586E00AB6B7B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		84FA79F0283D5C6900AB6B7B /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		84FA79F2283D70E000AB6B7B /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 		84FA79E8283D542000AB6B7B /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				84FA79F2283D70E000AB6B7B /* NoItemsView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				84FA79BD283D517F00AB6B7B /* Persistence.swift in Sources */,
 				84FA79ED283D560700AB6B7B /* AddItemView.swift in Sources */,
 				84FA79E6283D524F00AB6B7B /* ListView.swift in Sources */,
+				84FA79F3283D70E000AB6B7B /* NoItemsView.swift in Sources */,
 				84FA79EF283D586E00AB6B7B /* Item.swift in Sources */,
 				84FA79F1283D5C6900AB6B7B /* ListViewModel.swift in Sources */,
 				84FA79B6283D517800AB6B7B /* ContentView.swift in Sources */,
