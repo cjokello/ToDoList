@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847FDA26283EC329000F18A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847FDA25283EC329000F18A6 /* LaunchScreen.storyboard */; };
 		84FA79B4283D517800AB6B7B /* ToDoOneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA79B3283D517800AB6B7B /* ToDoOneApp.swift */; };
 		84FA79B6283D517800AB6B7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA79B5283D517800AB6B7B /* ContentView.swift */; };
 		84FA79B8283D517F00AB6B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FA79B7283D517F00AB6B7B /* Assets.xcassets */; };
@@ -42,7 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84FA79B0283D517800AB6B7B /* ToDoOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847FDA25283EC329000F18A6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84FA79B0283D517800AB6B7B /* Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Do.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FA79B3283D517800AB6B7B /* ToDoOneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoOneApp.swift; sourceTree = "<group>"; };
 		84FA79B5283D517800AB6B7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84FA79B7283D517F00AB6B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +102,7 @@
 		84FA79B1283D517800AB6B7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84FA79B0283D517800AB6B7B /* ToDoOne.app */,
+				84FA79B0283D517800AB6B7B /* Do.app */,
 				84FA79C5283D518000AB6B7B /* ToDoOneTests.xctest */,
 				84FA79CF283D518000AB6B7B /* ToDoOneUITests.xctest */,
 			);
@@ -116,6 +118,7 @@
 				84FA79B3283D517800AB6B7B /* ToDoOneApp.swift */,
 				84FA79B5283D517800AB6B7B /* ContentView.swift */,
 				84FA79B7283D517F00AB6B7B /* Assets.xcassets */,
+				847FDA25283EC329000F18A6 /* LaunchScreen.storyboard */,
 				84FA79BC283D517F00AB6B7B /* Persistence.swift */,
 				84FA79BE283D517F00AB6B7B /* ToDoOne.xcdatamodeld */,
 				84FA79B9283D517F00AB6B7B /* Preview Content */,
@@ -216,7 +219,7 @@
 			);
 			name = ToDoOne;
 			productName = ToDoOne;
-			productReference = 84FA79B0283D517800AB6B7B /* ToDoOne.app */;
+			productReference = 84FA79B0283D517800AB6B7B /* Do.app */;
 			productType = "com.apple.product-type.application";
 		};
 		84FA79C4283D518000AB6B7B /* ToDoOneTests */ = {
@@ -303,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847FDA26283EC329000F18A6 /* LaunchScreen.storyboard in Resources */,
 				84FA79BB283D517F00AB6B7B /* Preview Assets.xcassets in Resources */,
 				84FA79B8283D517F00AB6B7B /* Assets.xcassets in Resources */,
 			);
@@ -502,6 +506,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -510,7 +515,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.okelloayai.ToDoOne;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Do;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,6 +535,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -538,7 +544,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.okelloayai.ToDoOne;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Do;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
